@@ -1,7 +1,8 @@
 <?php
 require_once dirname(__FILE__) . "/Db.php";
+require_once dirname(__FILE__) . "/IProduitProvider.php";
 
-class ProduitDb extends Db
+class ProduitDb extends Db implements IProduitProvider
 {
     public function getAll(): array
     {
