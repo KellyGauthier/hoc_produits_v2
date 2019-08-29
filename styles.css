@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ce5858, rgba(100, 100, 100, 0)),  url(img/bg3.jpg) no-repeat center fixed;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.greet {
+  padding-left: 3em;
+  padding-top: 3em;
+  color: #fff;
+}
+
+.greet h1 {
+  font-size: 4em;
+}
+
+.greet ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.greet ul li {
+    text-align: center;
+}
+
+.greet ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.produits_container {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.produit {
+  max-width: 300px;
+  box-shadow: 0 0 15px 0px #8a8a8a;
+}
+
+.produit > .header,
+.produit > .title {
+  padding: 0.1em 0.5em;
+}
+
+.reference {
+  font-size: xx-small;
+  color: #888;
+}
+
+.produit > .title {
+  font-weight: bold;
+}
+
+.infos {
+  padding: 0.5em;
+  padding-top: 0px;
+}
+
+.price {
+  margin: 0px;
+}
+
+.description {
+  font-size: small;
+}
+
+.promo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: xx-small;
+  padding: 2px 4px;
+  color: #fff;
+  background-color: rgb(0, 143, 0);
+}
